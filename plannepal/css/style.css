@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,wght@1,600&display=swap');
+body
+{
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+    background: #f1f1f1;
+}
+ul
+{
+    list-style: none;
+    padding: 6px;
+    
+}
+p
+{
+    padding: 6px;
+}
+.top
+{
+    background: green;
+    padding-top: 5px;
+    height: 45px;
+}
+.top ul li 
+{
+    display: inline;
+    padding: 15px;
+}
+.info{
+    font-size: 13px;
+}
+.logo{
+    border: 3px solid orange;
+    position: absolute;
+    top: -43px;
+    z-index: 9999;
+}
+.bg-light
+{
+    background: #0B732B !important;
+    padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link
+{
+    color: azure;
+    padding: 25px 10px;
+    &:hover
+    {
+        background-color: orange;
+        color: red;
+    }
+}
+.carousel-caption
+{
+    text-align: right;
+    bottom: 30%;
+}
+
+.wlc
+{
+    text-align: justify;
+}
+.title
+{
+    background: green;
+    color: #FFF;
+    padding: 8px;
+    font-size: 18px;
+    display: inline-block;
+}
+.features
+{
+    ul li
+    {
+        &:before
+        {
+            content: '→';--------------------
+            padding-right: 15px;
+        }
+    }
+}
